@@ -1,3 +1,116 @@
-.row {
-    margin: 15px;
+/* Style the image inside the centered container, if needed */
+img {
+    display: inline-block;
+    width: 10%;
+    right: 10%;
+    border-radius: 0%;
   }
+  
+  p {
+    text-align: left;
+  }
+  
+  p a:link {
+    text-decoration: none;
+    color: orangered;
+  }
+  
+  p a:visited {
+    text-decoration: none;
+    color: orangered;
+  }
+  
+  p a:hover {
+    text-decoration: none;
+    color: orangered;
+  }
+  
+  p a:active {
+    text-decoration: none;
+    color: orangered;
+  }
+  
+  header {
+    height: 10%;
+    font-size: 7.5vh;
+    text-align: center;
+    color: black;
+  }
+  
+  body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 100%;
+  }
+  
+  /* Split the screen in half */
+  .split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 10%;
+  }
+  
+  /* Control the left side */
+  .right {
+    width: 100%;
+    left: 0;
+    background-color: #FFF;
+  }
+  
+  .right::-webkit-scrollbar { 
+    display: none; 
+  }
+  
+  /* Control the right side */
+  .left {
+    background-image: url("https://raw.githubusercontent.com/tatran5/tatran5.github.io/master/photos/navBar.png");
+    background-size: contain;
+    right: 0%;  
+    width: 20%;
+    font-size: 2.5vh;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centeredRight {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .navText {
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+  
+  .navText a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navText a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navText a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navText a:active {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
