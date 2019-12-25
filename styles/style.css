@@ -24,9 +24,9 @@
 }
 
 .gallery {
-  margin: 5px;
+  margin: 3px;
   float: left;
-  width: 250px;
+  width: 300px;
 }
 
 .gallery video {
@@ -41,6 +41,7 @@
 
 .desc {
   text-align: left;
+  font-size: small;
 }
 
 .tool {
@@ -57,5 +58,5 @@
 .zoom:hover {
   -ms-transform: scale(2); /* IE 9 */
   -webkit-transform: scale(2); /* Safari 3-8 */
-  transform: scale(2); 
+  transform: scale(2);
 }
