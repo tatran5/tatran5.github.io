@@ -1,0 +1,61 @@
+/* Clear floats after the columns */
+* {
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.nav {
+  width: 20%;
+}
+
+.content {
+  width: 80%;
+}
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 250px;
+}
+
+.gallery video {
+  width: 100%;
+  height: auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  text-align: left;
+}
+
+.tool {
+  font-size: small;
+}
+
+.zoom {
+  transition: transform .1s;
+ /* width: 200px;
+  height: 200px;*/
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+}
