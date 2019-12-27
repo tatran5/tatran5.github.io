@@ -23,6 +23,14 @@
   width: 80%;
 }
 
+.left-half {
+  width: 50%;
+}
+
+.right-half {
+  width: 50%;
+}
+
 .gallery {
   margin: 3px;
   float: left;
@@ -59,4 +67,19 @@
   -ms-transform: scale(2); /* IE 9 */
   -webkit-transform: scale(2); /* Safari 3-8 */
   transform: scale(2);
+}
+
+.video-art {
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.video-art video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
 }
