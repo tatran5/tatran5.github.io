@@ -90,10 +90,21 @@ html *
   height: auto;
 }
 
+.content-title {
+  position:fixed;
+  font-size: 15vh;
+}
+
+.art-project-title {
+  padding-top: 20vh;
+  font-size: 150%;
+}
+
 /* FOR DROP DOWN MENU BELOW ----------*/
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
+  /* background-color: #4CAF50; */
+  /* color: white; */
+  background-color: Transparent;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -120,8 +131,14 @@ html *
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  /* background-color: #3e8e41; */
+}
+
+/* FOR DROP DOWN MENU ABOVE ----------*/
