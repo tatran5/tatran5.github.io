@@ -92,9 +92,9 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .content-title {
   font-size: 7vh;
-  opacity: 0.9;
-  width: 80vw;
-  background: white;
+  /* opacity: 0.9;
+  width: 80vw; */
+  /* background: white; */
 }
 
 .art-project-title {
