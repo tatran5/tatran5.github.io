@@ -144,6 +144,8 @@ a:hover, a:active { text-decoration: none; color:black }
 /* FOR DROP DOWN MENU ABOVE ----------*/
 
 .nav {
+  top: 0;
+  left: 0;
   height: 100vh;
   background: white;
   font-size: 2vh;
