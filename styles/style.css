@@ -53,6 +53,7 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .desc {
+  height: 25vh;
   text-align: center;
   font-size: small;
 }
