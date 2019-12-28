@@ -39,7 +39,7 @@ a:hover, a:active { text-decoration: none; color:black }
 .gallery {
   margin: 3px;
   float: left;
-  width: 15vw;
+  width: 17vw;
 }
 
 .gallery video {
