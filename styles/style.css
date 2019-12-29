@@ -170,3 +170,8 @@ a:hover, a:active { text-decoration: none; color:black }
   width: 10vw;
   height: auto;
 }
+
+.profile-picture img {
+  max-width: 100%;
+  max-height: auto;
+}
