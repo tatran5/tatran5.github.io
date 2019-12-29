@@ -167,11 +167,12 @@ a:hover, a:active { text-decoration: none; color:black }
 
 /* About */
 .profile-picture {
-  width: 10vw;
+  width: 20vw;
   height: auto;
 }
 
 .profile-picture img {
   max-width: 100%;
   max-height: auto;
+  margin: auto;
 }
