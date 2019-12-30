@@ -151,7 +151,11 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .nav a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration-color: #cea434;
 }
 
 .nav ul {
@@ -167,15 +171,23 @@ a:hover, a:active { text-decoration: none; color:black }
 
 /* About */
 .profile-picture {
-  width: 20vw;
-  height: auto;
+  float: left;
+  width: 30%;
+  padding: 10px;
 }
 
 .profile-picture img {
   max-width: 100%;
   max-height: auto;
+  border-radius: 50%;
 }
 
 .intro {
-  padding-left: 40vw;
+  float: left;
+  width: 70%;
+  padding-top: 7vh;
+}
+
+.intro a {
+  text-decoration : none;
 }
