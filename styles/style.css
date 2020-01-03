@@ -136,6 +136,8 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .content-title {
   font-size: 7vh;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
 }
 
 .art-project-title {
