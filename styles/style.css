@@ -256,6 +256,7 @@ a:hover, a:active { text-decoration: none; color:black }
   font-weight: bolder;
   color: #193153;
   padding-top: 30vh;
+  font-weight: 900;
 }
 
 .cover img {
