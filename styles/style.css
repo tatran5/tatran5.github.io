@@ -40,7 +40,7 @@
 
 html *
 {
-   font-family: Verdana, sans-serif !important;
+   font-family: Helvetica, sans-serif !important;
    font-weight: 100;
 }
 
@@ -231,6 +231,13 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .intro a {
   text-decoration : none;
+  color: #193153;
+  font-weight: bold;
+  transition: background 0.5s ease-in-out;
+}
+
+.intro a:hover {
+  color: #cea434;
 }
 
 .cover {
@@ -246,6 +253,8 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .cover-title {
+  font-weight: bolder;
+  color: #193153;
   padding-top: 30vh;
 }
 
