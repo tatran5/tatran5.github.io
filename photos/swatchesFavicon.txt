@@ -1,0 +1,4 @@
+Swatches:
+
+#193153 : 025, 049, 083 : cloudy navy
+#cea434 : 206, 164, 053 : mustard yellow

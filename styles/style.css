@@ -28,7 +28,13 @@ a:hover, a:active { text-decoration: none; color:black }
 .nav {
   width: 20vw;
   text-align: center;
+  top: 0;
+  left: 0;
   position: fixed;
+  min-height: 100%;
+  min-height: 100%;
+  background-color: #193153;
+  color: white;
 }
 
 .content {
@@ -103,6 +109,7 @@ a:hover, a:active { text-decoration: none; color:black }
   background-color: Transparent;
   text-align: left;
   border: none;
+  color: white;
 }
 
 .dropdown {
@@ -118,7 +125,7 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 0.2vw 0.2vw;
   text-align: left;
   text-decoration: none;
@@ -132,14 +139,6 @@ a:hover, a:active { text-decoration: none; color:black }
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {}
-
-.nav {
-  top: 0;
-  left: 0;
-  height: 100vh;
-  background: white;
-  font-size: 2vh;
-}
 
 .nav a {
   text-decoration: none;
