@@ -1,6 +1,41 @@
 
 * {
   box-sizing: border-box;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 html *
@@ -118,6 +153,14 @@ a:hover, a:active { text-decoration: none; color:black }
   font-size: 3vh;
 }
 
+.dropbtn a:hover {
+  color: #cea434;
+}
+
+.dropbtn:hover {
+  color: #cea434;
+}
+
 .dropdown {
   color: white;
   position: relative;
@@ -198,4 +241,26 @@ a:hover, a:active { text-decoration: none; color:black }
   left: 20vw;
   font-size: 20vh;
   text-align: center;
+}
+
+.cover-title {
+  padding-top: 30vh;
+}
+
+.cover img {
+  height: 17vh;
+  width: auto;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.cover img:hover {
+  height: 17vh;
+  width: auto;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.cover a{
+  text-decoration: none;
 }
