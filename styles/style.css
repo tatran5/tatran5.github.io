@@ -14,6 +14,10 @@ a:hover { text-decoration: none; color: black; }
 a:focus { text-decoration: none; color: black; }
 a:hover, a:active { text-decoration: none; color:black }
 
+.name {
+  font-size: 4vh;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -106,13 +110,16 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .dropbtn {
+  padding-top: 2vh;
   background-color: Transparent;
   text-align: left;
   border: none;
   color: white;
+  font-size: 3vh;
 }
 
 .dropdown {
+  color: white;
   position: relative;
   display: inline-block;
 }
@@ -126,14 +133,14 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .dropdown-content a {
   color: white;
-  padding: 0.2vw 0.2vw;
+  padding: 0.2vw 1vw;
   text-align: left;
-  text-decoration: none;
+  text-decoration: none ;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #cea434;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -142,6 +149,7 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .nav a {
   text-decoration: none;
+  color: white;
 }
 
 .nav a:hover {
@@ -177,4 +185,16 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .intro a {
   text-decoration : none;
+}
+
+.cover {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 0px;
+  left: 20vw;
+  background-image: url("cover.JPG");
+  background: rgba(206, 164, 53, 0.8); /*can be anything, of course*/
 }
