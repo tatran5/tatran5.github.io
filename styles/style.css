@@ -77,14 +77,13 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .content {
-  /* background-color: red; */
   padding-left:20vw;
 }
 
 .gallery {
   margin: 3px;
   float: left;
-  width: 17vw;
+  width: 23vw;
 }
 
 .gallery video {
@@ -144,6 +143,10 @@ a:hover, a:active { text-decoration: none; color:black }
   padding-top: 5vh;
   padding-bottom: 1.5vh;
   font-size: 120%;
+}
+
+.art-project-description {
+  font-size: 100%;
 }
 
 .dropbtn {
